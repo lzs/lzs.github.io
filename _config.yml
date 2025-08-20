@@ -1,3 +1,7 @@
-    theme: minima
-    minima:
-      skin: dark
+# In _config.yml
+# theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+minima:
+  skin: dark # Or auto if you want it to switch with your system settings.
